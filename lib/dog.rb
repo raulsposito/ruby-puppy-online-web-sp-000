@@ -14,9 +14,9 @@ class Dog
     @@all
   end
   
-  def self.print_all(name)
+  def self.print_all
     @@all. do |x|
-      puts x.name 
+      puts x
     end
   end
   
