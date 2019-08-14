@@ -15,10 +15,10 @@ class Dog
   end
   
   
-  #def print_all
-  #  @@all.each do |x|
-  #    puts x
-  #  end
-  #end
+  def self.print_all
+    @@all.each do |x|
+      puts x
+    end
+  end
   
 end
