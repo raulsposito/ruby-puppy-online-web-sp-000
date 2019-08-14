@@ -15,8 +15,8 @@ class Dog
   end
   
   def self.print_all
-    @@all. do |name|
-      puts name
+    @@all. do |x|
+      puts naxme
     end
   end
   
