@@ -16,7 +16,7 @@ class Dog
   
   def self.print_all
     @@all. do |x|
-      puts naxme
+      puts x.name 
     end
   end
   
